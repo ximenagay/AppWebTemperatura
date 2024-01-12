@@ -10,7 +10,6 @@ if (isNaN(temperaturaCelsius)){//Comprueba si el prompt corresponde a número
 }
     //Convertir a fahrenheit y kelvin
     let temperaturaFahrenheit = (Number(temperaturaCelsius) * 9/5) + 32;
-
     let temperaturaKelvin = Number(temperaturaCelsius) + 273;
     
     console.log(`Temperatura en Fahrenheit: ` + temperaturaFahrenheit + `°F`);
